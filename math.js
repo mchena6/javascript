@@ -7,7 +7,7 @@ function resta(a, b) {
 }
 
 function multiplicacion(a,b) {
-  return a * b;
+  return a * b - 1;
 }
 
 function division (a,b) {
