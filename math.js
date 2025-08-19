@@ -1,6 +1,6 @@
 
 function suma(a, b) {
-  return a + b; 
+  return a - b; 
 }
 
 function resta(a, b) {
