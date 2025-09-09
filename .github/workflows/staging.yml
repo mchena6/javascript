@@ -1,4 +1,4 @@
-name: CD - Deploy con Git Pull
+name: CD - Deploy a Staging con Git Pull
 
 on:
   push:
@@ -17,5 +17,5 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no alumno@137.184.127.11 "
             cd ~/lemp-sites/chena_martin/staging &&
-            git pull origin main
+            git pull origin develop
           "
