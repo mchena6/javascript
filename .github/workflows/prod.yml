@@ -1,4 +1,4 @@
-name: CD - Deploy con Git Pull
+name: CD - Deploy a Prod con Git Pull
 
 on:
   push:
